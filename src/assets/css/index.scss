@@ -1,0 +1,389 @@
+#index-page {
+  // 主体
+  .shop-content {
+    width: 100%;
+    padding-top: 10px;
+    background: #F1F1F1;
+    .shop-product {
+      position: relative;
+      .left {
+        height: 530px;
+        overflow-y: auto;
+      }
+      .left,
+      .right {
+        width: 200px;
+        background: #fff;
+        .title-text {
+          color: #934B20;
+          margin: 0 10px;
+        }
+        .system-bulletin {
+          height: 137px;
+          border-top: 4px solid #FF4400;
+          ul {
+            font-size: 14px;
+            padding: 0 10px;
+            li {
+              margin-bottom: 5px;
+              cursor: pointer;
+            }
+            li:before {
+              content: "";
+              display: inline-block;
+              width: 3px;
+              height: 3px;
+              background-color: #000;
+              border-radius: 50%;
+              margin-right: 5px;
+							margin-bottom: 4px;
+            }
+            li:hover {
+              color: #FF4400;
+              text-decoration: underline;
+            }
+          }
+        }
+        .new-order {
+          background: -webkit-linear-gradient(top, #FFF1C5, #FFDEAA);
+          background: -o-linear-gradient(bottom, #FFF1C5, #FFDEAA);
+          background: -moz-linear-gradient(bottom, #FFF1C5, #FFDEAA);
+          background: linear-gradient(to bottom, #FFF1C5, #FFDEAA);
+          text-align: center;
+          height: 389px;
+          .store-name {
+            font-size: 14px;
+            color: #222;
+          }
+          .pro {
+            width: 160px;
+            height: 210px;
+            background: #fff;
+            border-radius: 8px;
+            margin: 15px auto;
+            font-size: 14px;
+            .pro-status {
+              padding: 15px 0 9px;
+            }
+            img {
+              width: 100px;
+              height: 93px;
+            }
+            .pro-name {
+              padding: 15px 0 2px;
+              color: #222222;
+            }
+            .pro-price {
+              color: #FF541F;
+            }
+          }
+          .price {
+            color: #1B402C;
+            font-size: 14px;
+            font-weight: bold;
+          }
+          .enterbtn {
+            width: 105px;
+            height: 26px;
+            border-radius: 13px;
+            margin: 15px auto;
+            background: #FFA933;
+            color: #fff;
+            font-size: 12px;
+            line-height: 26px;
+            cursor: pointer;
+          }
+        }
+      }
+      .center {
+        width: 790px;
+        .banner {
+          height: 420px;
+          background: #DBFBCE;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .slogan {
+          width: 100%;
+          height: 110px;
+          background: #FF4400;
+          color: #fff;
+          font-size: 18px;
+          ul {
+            height: 100%;
+            li {
+              width: 25%;
+              text-align: center;
+            }
+          }
+        }
+      }
+      .yezi {
+        width: 107px;
+        height: 95px;
+        position: absolute;
+        background: url(../../static/img/img_top_yezi.png);
+        bottom: -60px;
+        left: -90px;
+      }
+    }
+  } // 促销活动
+  .sales-promotion {
+    background-color: #F1F1F1;
+    padding-top: 32px;
+    .promotion-title-bg {
+      width: 1272px;
+      height: 153px;
+      margin: 0 auto;
+      background: url(../../static/img/northring/promotion_title_bg.png);
+      .min-width {
+        height: 60px;
+      }
+      .sales-list {
+        height: 100%;
+        ul {
+          width: 843px;
+          height: 100%;
+          padding: 0 50px;
+          li {
+            cursor: pointer;
+            text-align: left;
+            .radio-box {
+              width: 21px;
+              height: 26px;
+              border: 1px solid #909090;
+              margin-right: 35px;
+            }
+            p {
+              color: #909090;
+              font-size: 18px;
+            }
+            p:nth-child(2) {
+              font-size: 14px;
+            }
+          }
+          li:not(:last-child) {
+            margin-right: 40px;
+          }
+          li.active {
+            p {
+              color: #FF4400;
+            }
+            .radio-box {
+              border: 1px solid #FF4400;
+            }
+          }
+        }
+      }
+    }
+    .promotion-content {
+      margin-top: -93px;
+      .left {
+        width: 190px;
+        height: 295px;
+        background: #FF4400;
+        color: #fff;
+        text-align: center;
+        overflow: hidden;
+        .cxhd {
+          margin: 53px auto 13px;
+          width: 135px;
+          height: 108px;
+          background: url(../../static/img/northring/img.png);
+        }
+        p {
+          margin-top: 13px;
+        }
+      }
+      .right {
+        width: 1000px;
+        background: #fff;
+        ul.promotion-pro-list {
+          height: 265px;
+          li:hover .item .addbtn {
+            bottom: 0;
+          }
+          li {
+            height: 100%;
+            width: 199px;
+            border-right: 1px solid #f1f1f1;
+            .item {
+              width: 162px;
+              height: 243px;
+              margin: 0 auto;
+              position: relative;
+              padding-top: 19px;
+              overflow: hidden;
+              .pro-price {
+                .p1 {
+                  height: 22px;
+                  width: 81px;
+                  background: #FF4400;
+                  color: #fff;
+                  text-align: center;
+                }
+                .p2 {
+                  height: 20px;
+                  width: 79px;
+                  border: 1px solid #FF4400;
+                  background: #fff;
+                  color: #909090;
+                  text-decoration: line-through;
+                  text-align: center;
+                }
+              }
+              .pro-img {
+                margin-top: 25px;
+                width: 100%;
+                height: 120px;
+                background: #000;
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+              .pro-name {
+                color: #6F6F6F;
+                padding: 5px;
+                text-align: center;
+              }
+              .addbtn {
+                width: 100%;
+                position: absolute;
+                bottom: -34px;
+                transition: bottom 0.5s;
+                -moz-transition: bottom 0.5s;
+                -webkit-transition: bottom 0.5s;
+                -o-transition: bottom 0.5s;
+              }
+            }
+          }
+        }
+        li:last-child {
+          border-right: none;
+        }
+      }
+    }
+  } // 新品上市标题
+  .newtitle {
+    padding: 38px 0 24px;
+    .img-line {
+      height: 9px;
+      width: 495px;
+      background: url(../../static/img/northring/img_line.png);
+    }
+    .newtitle-text {
+      font-size: 26px;
+      color: #333;
+    }
+  } // 新品上市
+  .new-product {
+    background-color: #F1F1F1;
+    .newprolist {
+      li {
+        width: 389px;
+        height: 248px;
+        background: #fff;
+        .item {
+          padding: 20px;
+          .pro-img {
+            width: 148px;
+            height: 148px;
+            background: #000;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .pro-info {
+            font-size: 14px;
+            margin-left: 24px;
+            width: 177px;
+            color: #5C5C5C;
+            .pro-name {
+              height: 20px;
+              line-height: 20px;
+              background: #FFECE5;
+              color: #FF4400;
+              min-width: 113px;
+              margin-bottom: 40px;
+              margin-top: 35px;
+              text-align: center;
+            }
+          }
+        }
+        .pro-btns {
+          .pro-price {
+            width: 234px;
+            height: 60px;
+            background: url(../../static/img/northring/newpropri_bg.png);
+            color: #fff;
+          }
+          .pro-addcar {
+            cursor: pointer;
+            width: 155px;
+            color: #fff;
+            background: #FFA133;
+            span {
+              padding-left: 5px;
+            }
+          }
+        }
+      }
+    }
+  } // 热卖商品
+  .hot-product {
+    background-color: #F1F1F1;
+    padding-bottom: 60px;
+    .hotprolist {
+      background: #fff;
+      padding: 40px 26px 0 26px;
+      flex-wrap: wrap;
+      li {
+        width: 156px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+				position: relative;
+				overflow: hidden;
+				cursor: pointer;
+        .addbtn {
+					width: 154px;
+					position: absolute;
+					top: -38px;
+					transition: top 0.5s;
+					-moz-transition: top 0.5s;
+					-webkit-transition: top 0.5s;
+					-o-transition: top 0.5s;
+				}
+        .item {
+          .pro-img {
+            width: 100%;
+            height: 120px;
+            background: #000;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .pro-pri {
+            font-size: 18px;
+            color: #FF4400;
+          }
+          .pro-name {
+            font-size: 14px;
+            color: #5c5c5c;
+            padding: 15px 0;
+          }
+        }
+      }
+      li:nth-child(6n) {
+        margin-right: 0;
+      }
+			li:hover .addbtn{
+				top: 0px;
+			}
+    }
+  }
+}
