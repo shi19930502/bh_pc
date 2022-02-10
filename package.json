@@ -17,7 +17,7 @@
     "gulp-clean": "^0.4.0",
     "gulp-load-plugins": "^1.5.0",
     "gulp-zip": "^4.2.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "sass-loader": "^7.0.3",
     "vue": "^2.5.2",
     "vue-photo-preview": "^1.1.2",
